@@ -1,3 +1,4 @@
+from src.grafos.grafo import Grafo
 from src.grafos.nodo import Nodo
 from src.grafos.arista import Arista
 from src.grafos.arista import AristaNoDirigida
@@ -19,7 +20,23 @@ print(n1, n2)
 #Arista no dirigidas
 arista1 = AristaNoDirigida(n1, n2)
 arista2 = AristaNoDirigida(Nodo((50,60)), Nodo((200,150)))
-print(arista1)
-print(arista2)
+# print(arista1)
+# print(arista2)
+
+
+## grafo
+
+g = Grafo()
+
+g.agregar_arista(arista1)
+g.agregar_arista(arista2)
+
+print("GRAFO:")
+print(g)
+
+
+
+
+
 
 
