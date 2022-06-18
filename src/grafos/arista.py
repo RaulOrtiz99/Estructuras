@@ -1,4 +1,7 @@
-from src.grafos.nodo import Nodo
+
+
+
+from grafos.nodo import Nodo
 
 
 class Arista:

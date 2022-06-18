@@ -1,7 +1,9 @@
-from src.grafos.grafo import Grafo
-from src.grafos.nodo import Nodo
-from src.grafos.arista import Arista
-from src.grafos.arista import AristaNoDirigida
+
+
+from grafos.arista import AristaNoDirigida
+from grafos.grafo import Grafo
+from grafos.nodo import Nodo
+
 
 n1 = Nodo(10)
 n2 = Nodo(15)

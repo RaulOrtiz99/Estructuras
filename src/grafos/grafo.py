@@ -1,4 +1,7 @@
-from arista import Arista
+
+
+from grafos.arista import Arista
+
 
 class Grafo:
     def __init__(self):
